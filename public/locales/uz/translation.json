@@ -25,6 +25,7 @@
       "stavka": "Eng kam stavkalar",
       "imtiyoz": "Ijara imtiyozlari",
       "kadrlar": "Kadrlar masalasi",
+      "anticorruption": "Korrupsiyaga qarshi kurashish",
       "vacancy": "Boʻsh ish oʻrinlari"
     },
     "contact_info": "Bogʻlanish"
@@ -40,7 +41,7 @@
     "ourMissionDesc2": "samarali foydalanish"
   },
   "AboutCompany": {
-    "Title": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi huzuridagi Davlat mulki obyektlaridan samarali foydalanish markazi haqida",
+    "Title": "O'zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi huzuridagi Davlat mulki obyektlaridan samarali foydalanish markazi haqida",
     "desc": "",
     "readmore": "Davomini o'qish",
     "opitny": "Tajribali kadrlar",
@@ -53,19 +54,38 @@
     "deadlineDesc": "Biz loyihalarni o'z vaqtida bajarishga intilamiz."
   },
   "Structure": {
-    "Title": "O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi huzuridagi Davlat mulki obyektlaridan samarali foydalanish markazi markaziy apparatining TUZILMASI"
+    "Title": "O'zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi huzuridagi Davlat mulki obyektlaridan samarali foydalanish markazi markaziy apparatining TUZILMASI"
   },
   "Opendata": {
-    "Title": "Byudjet to‘g‘risidagi qonunchilik hujjatlariga muvofiq ochiq maʼlumotlar"
+    "Title": "Byudjet to'g'risidagi qonunchilik hujjatlariga muvofiq ochiq maʼlumotlar"
   },
   "Stavka": {
-    "Title": "Davlat mulkidan foydalanganlik uchun ijara to‘lovining eng kam stavkalarini tasdiqlash to‘g‘risida maʼlumotlar"
+    "Title": "Davlat mulkidan foydalanganlik uchun ijara to'lovining eng kam stavkalarini tasdiqlash to'g'risida maʼlumotlar"
   },
   "Imtiyoz": {
-    "Title": "Davlat mulkini ijaraga berishda tadbirkorlik subyektlariga berilgan imtiyozlar to‘g‘risida maʼlumotlar"
+    "Title": "Davlat mulkini ijaraga berishda tadbirkorlik subyektlariga berilgan imtiyozlar to'g'risida maʼlumotlar"
   },
   "Kadrlar": {
-    "Title": "Davlat mulki obyektlaridan samarali foydalanish markazida hisobot davrida ishga qabul qilingan (rotatsiya qilingan) rahbar kadrlar to‘g‘risidagi maʼlumot"
+    "Title": "Davlat mulki obyektlaridan samarali foydalanish markazida hisobot davrida ishga qabul qilingan (rotatsiya qilingan) rahbar kadrlar to'g'risidagi maʼlumot"
+  },
+  "Anticorruption": {
+    "Title": "Korrupsiyaga qarshi kurashish",
+    "LegalFramework": "Huquqiy asoslar",
+    "LegalFrameworkDesc": "Korrupsiyaga qarshi kurashish O'zbekiston Respublikasining ustuvor yo'nalishlaridan biri hisoblanadi. Ushbu sohada faoliyat O'zbekiston Respublikasi Konstitutsiyasi, 'Korrupsiyaga qarshi kurashish to'g'risida'gi qonun va boshqa me'yoriy-huquqiy hujjatlar asosida amalga oshiriladi.",
+    "Prevention": "Profilaktika choralari",
+    "PreventionItem1": "Xodimlarni korrupsiyaga qarshi qonunchilik bilan tanishtirib borish",
+    "PreventionItem2": "Shaffoflik va ochiqlik tamoyillarini ta'minlash",
+    "PreventionItem3": "Manfaatlar to'qnashuvi holatlarini oldini olish",
+    "PreventionItem4": "Ichki nazorat tizimini mustahkamlash",
+    "Reporting": "Xabardorlik",
+    "ReportingDesc": "Korrupsion huquqbuzarliklar haqida xabar berish uchun quyidagi aloqa vositalari mavjud:",
+    "Hotline": "Ishonch telefoni:",
+    "Email": "Elektron pochta:",
+    "Documents": "Hujjatlar",
+    "AnticorruptionLaw": "O'zbekiston Respublikasining 'Korrupsiyaga qarshi kurashish to'g'risida'gi qonuni",
+    "AnticorruptionLawDesc": "Korrupsiyaga qarshi kurashishning huquqiy asoslarini belgilovchi asosiy qonun hujjati",
+    "CodeOfEthics": "Xizmat odob-axloq kodeksi",
+    "CodeOfEthicsDesc": "Davlat xizmatchilari faoliyatidagi odob-axloq qoidalarini belgilovchi hujjat"
   },
   "News": {
     "title": "Yangiliklar",
@@ -87,11 +107,11 @@
   },
   "AboutPage": {
     "Content": [
-      "    Markaz bo‘sh turgan davlat mulki obyektlarini aniqlash va ulardan samarali foydalanishni, shu jumladan davlat mulkini ijaraga berishni tashkil etish bo‘yicha vakolatli davlat boshqaruvi organi hisoblanadi va bevosita Agentlikka bo‘ysunadi.",
-      "Agentlik Markaz faoliyatini muvofiqlashtiradi, nazorat qiladi va unga umumiy rahbarlikni amalga oshiradi, uning moddiy-texnik bazasini mustahkamlash choralarini ko‘radi, xodimlarining malakasini oshirishni tashkil etadi.",
-      "Markaz o‘z faoliyatida O‘zbekiston Respublikasi Konstitutsiyasi va qonunlariga, O‘zbekiston Respublikasi Oliy Majlisi palatalarining qarorlariga, O‘zbekiston Respublikasi Prezidentining farmonlari, qarorlari va farmoyishlariga, Vazirlar Mahkamasining qarorlari va farmoyishlariga, Agentlikning hay’ati qarorlariga, buyruqlariga, ushbu Nizomga va boshqa qonunchilik hujjatlariga amal qiladi.",
-      "Markazning o‘z vakolatlari doirasida qabul qilgan qarorlari davlat va xo‘jalik boshqaruvi organlari, mahalliy ijro etuvchi hokimiyat organlari, boshqa tashkilotlar va ularning mansabdor shaxslari tomonidan bajarilishi majburiy hisoblanadi.",
-      "Markaz yuridik shaxs hisoblanadi, O‘zbekiston Respublikasi Davlat gerbi tasviri tushirilgan va o‘z nomi davlat tilida yozilgan muhrga va blankalarga, mustaqil balansga, O‘zbekiston Respublikasi Moliya vazirligi G‘aznachiligida shaxsiy g‘azna hisobvaraqlariga, bank hisobvaraqlariga, shu jumladan xorijiy valyutadagi bank hisobvaraqlariga ega bo‘ladilar.",
+      "    Markaz bo'sh turgan davlat mulki obyektlarini aniqlash va ulardan samarali foydalanishni, shu jumladan davlat mulkini ijaraga berishni tashkil etish bo'yicha vakolatli davlat boshqaruvi organi hisoblanadi va bevosita Agentlikka bo'ysunadi.",
+      "Agentlik Markaz faoliyatini muvofiqlashtiradi, nazorat qiladi va unga umumiy rahbarlikni amalga oshiradi, uning moddiy-texnik bazasini mustahkamlash choralarini ko'radi, xodimlarining malakasini oshirishni tashkil etadi.",
+      "Markaz o'z faoliyatida O'zbekiston Respublikasi Konstitutsiyasi va qonunlariga, O'zbekiston Respublikasi Oliy Majlisi palatalarining qarorlariga, O'zbekiston Respublikasi Prezidentining farmonlari, qarorlari va farmoyishlariga, Vazirlar Mahkamasining qarorlari va farmoyishlariga, Agentlikning hay'ati qarorlariga, buyruqlariga, ushbu Nizomga va boshqa qonunchilik hujjatlariga amal qiladi.",
+      "Markazning o'z vakolatlari doirasida qabul qilgan qarorlari davlat va xo'jalik boshqaruvi organlari, mahalliy ijro etuvchi hokimiyat organlari, boshqa tashkilotlar va ularning mansabdor shaxslari tomonidan bajarilishi majburiy hisoblanadi.",
+      "Markaz yuridik shaxs hisoblanadi, O'zbekiston Respublikasi Davlat gerbi tasviri tushirilgan va o'z nomi davlat tilida yozilgan muhrga va blankalarga, mustaqil balansga, O'zbekiston Respublikasi Moliya vazirligi G'aznachiligida shaxsiy g'azna hisobvaraqlariga, bank hisobvaraqlariga, shu jumladan xorijiy valyutadagi bank hisobvaraqlariga ega bo'ladilar.",
       ""
     ],
     "Reyting": "Reyting:",

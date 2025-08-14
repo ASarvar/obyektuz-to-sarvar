@@ -186,6 +186,10 @@ function myFunction() {
                 {t("Menu.data.kadrlar")}
                 </NavDropdown.Item>
 
+                <NavDropdown.Item as={Link} className="navDrop" to="/anticorruption">
+                {t("Menu.data.anticorruption")}
+                </NavDropdown.Item>
+
                 {/* <NavDropdown.Item as={Link} className="navDrop" to="/vacancy">
                 {t("Menu.data.vacancy")}
                 </NavDropdown.Item> */}
