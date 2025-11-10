@@ -191,9 +191,14 @@ function myFunction() {
                 </NavDropdown.Item> */}
               </NavDropdown>
 
+              <Nav.Link as={Link} className="navLink hover" to="/antikorrupsiya">
+              {t("Menu.antikorrupsiya")}
+              </Nav.Link>
+
               <Nav.Link as={Link} className="navLink hover" to="/contacts">
               {t("Menu.contact_info")}
               </Nav.Link>
+
             </Nav>
             {/* <Nav className="langNav">
               <Button

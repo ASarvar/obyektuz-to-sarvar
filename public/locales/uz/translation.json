@@ -27,6 +27,7 @@
       "kadrlar": "Kadrlar masalasi",
       "vacancy": "Boʻsh ish oʻrinlari"
     },
+    "antikorrupsiya": "Antikorrupsiya",
     "contact_info": "Bogʻlanish"
   },
   "CarouselHeader": {
@@ -63,6 +64,9 @@
   },
   "Imtiyoz": {
     "Title": "Davlat mulkini ijaraga berishda tadbirkorlik subyektlariga berilgan imtiyozlar to‘g‘risida maʼlumotlar"
+  },
+  "Antikorrupsiya": {
+    "Title": "Korrupsiyaga qarshi kurash bo‘yicha hujjatlar"
   },
   "Kadrlar": {
     "Title": "Davlat mulki obyektlaridan samarali foydalanish markazida hisobot davrida ishga qabul qilingan (rotatsiya qilingan) rahbar kadrlar to‘g‘risidagi maʼlumot"

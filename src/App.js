@@ -23,6 +23,7 @@ import Opendata from "./Pages/Open-Data";
 import Stavka from './Pages/Stavka'
 import Imtiyoz from './Pages/Imtiyoz'
 import Kadrlar from './Pages/Kadrlar'
+import Antikorrupsiya from './Pages/Antikorrupsiya'
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           <Route exact path="/stavka" component={Stavka}></Route>
           <Route exact path="/imtiyoz" component={Imtiyoz}></Route>
           <Route exact path="/kadrlar" component={Kadrlar}></Route>
+          <Route exact path="/antikorrupsiya" component={Antikorrupsiya}></Route>
           <Route  path="*" component={NotFound}></Route>
         </Switch>
       </Router>
