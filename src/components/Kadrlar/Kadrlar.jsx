@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 
 //Davlat mulki obyektlaridan samarali foydalanish markazi xarajatlar smetasining ijrosi bo‘yicha maʼlumotlar
 // 1-chorak
-import kadrlar from "../../assets/kadrlar/kadrlar.pdf";
 import file from "../../assets/kadrlar/file.pdf";
 import vacancy from "../../assets/kadrlar/vacancy.doc";
 
