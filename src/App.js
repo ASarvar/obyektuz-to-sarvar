@@ -24,6 +24,7 @@ import Stavka from './Pages/Stavka'
 import Imtiyoz from './Pages/Imtiyoz'
 import Kadrlar from './Pages/Kadrlar'
 import Antikorrupsiya from './Pages/Antikorrupsiya'
+import Antikorrup_media from './Pages/Antikorrup_media'
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route exact path="/imtiyoz" component={Imtiyoz}></Route>
           <Route exact path="/kadrlar" component={Kadrlar}></Route>
           <Route exact path="/antikorrupsiya" component={Antikorrupsiya}></Route>
+          <Route exact path="/media" component={Antikorrup_media}></Route>
           <Route  path="*" component={NotFound}></Route>
         </Switch>
       </Router>

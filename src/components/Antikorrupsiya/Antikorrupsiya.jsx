@@ -17,6 +17,19 @@ import file10 from "../../assets/antikorrupsiya/Manfaatlar to‘qnashuvini boshq
 import file11 from "../../assets/antikorrupsiya/Markaziy apparat va hududiy boshqarmalar xodimlariga nisbatan  xizmat tekahiruvlarini tayinlash va otkazish togrisida nizom.pdf";
 import file12 from "../../assets/antikorrupsiya/Xodimlarining korrupsiyaga qarshi kurashish sohasida o‘qitilishini tashkil.doc";
 import file13 from "../../assets/antikorrupsiya/Xodimlarining odob-axloq qoidalari.doc";
+import file14 from "../../assets/antikorrupsiya/Buyruq.pdf";
+import file15 from "../../assets/antikorrupsiya/1-ilova. Сиёсат.pdf";
+import file16 from "../../assets/antikorrupsiya/2-ilova. Хавфларни баҳолаш услубиёти.pdf";
+import file17 from "../../assets/antikorrupsiya/3-ilova. Алоқа каналлар.pdf";
+import file18 from "../../assets/antikorrupsiya/4-ilova. ўқитиш.pdf";
+import file19 from "../../assets/antikorrupsiya/5-ilova. Контрагентларни текшириш.pdf";
+import file20 from "../../assets/antikorrupsiya/6-ilova. Номзодларни текшириш.pdf";
+import file21 from "../../assets/antikorrupsiya/7-ilova. Мониторинг ва назорат.pdf";
+import file22 from "../../assets/antikorrupsiya/8-ilova. Ҳисоботларни тақдим қилиш.pdf";
+import file23 from "../../assets/antikorrupsiya/9-ilova. Манфаатлар тўқнашуви.pdf";
+import file24 from "../../assets/antikorrupsiya/10-ilova. sovg'alar.pdf";
+import file25 from "../../assets/antikorrupsiya/11-ilova. Рағбатлантириш.pdf";
+import file26 from "../../assets/antikorrupsiya/12-ilova. харид тартиб-таомили.pdf";
 
 const AntikorrupsiyaPage = () => {
   const { t } = useTranslation();
@@ -76,6 +89,19 @@ const AntikorrupsiyaPage = () => {
       file: file12,
     },
     { id: 13, name: "Xodimlarning odob-axloq qoidalari", file: file13 },
+    { id: 14, name: "Ichki idoraviy hujjatlarini tasdiqlash toʻgʻrisida buyruq", file: file14 },
+    { id: 15, name: "1-ilova. Korrupsiyaga qarshi kurashish siyosati", file: file15 },
+    { id: 16, name: "2-ilova. Korrupsiyaviy xavf-xatarlarni baholash uslubiyoti", file: file16 },
+    { id: 17, name: "3-ilova. Korrupsiyaviy xatti-harakatlar toʻgʻrisida kelib tushgan xabarlarni qabul qilish va koʻrib chiqish reglamenti", file: file17 },
+    { id: 18, name: "4-ilova. Xodimlarning korrupsiyaga qarshi kurashish sohasida oʻqitilishini tashkil qilish boʻyicha yo'riqnoma", file: file18 },
+    { id: 19, name: "5-ilova. Agentlikda kontragentlarni tekshirishga oid yo'riqnoma", file: file19 },
+    { id: 20, name: "6-ilova. Agentlik tizimida ishga qabul qilinayotgan nomzodlarni tekshirish boʻyicha yo'riqnoma", file: file20 },
+    { id: 21, name: "7-ilova. Agentlik tizimida korrupsiyaga qarshi kurashish samaradorligini monitoring va nazorat qilish uslubiyoti", file: file21 },
+    { id: 22, name: "8-ilova. Agentlikda korrupsiyaga qarshi kurash tizimining holati haqidagi hisobotni shakllantirish va taqdim etish reglamenti", file: file22 },
+    { id: 23, name: "9-ilova. Agentlik tizimida manfaatlar toʻqnashuvini boshqarish toʻgʻrisida nizom", file: file23 },
+    { id: 24, name: "10-ilova. Agentlik tizimida xizmat safarlari, xalqaro va boshqa rasmiy tadbirlar munosabati bilan olinishi mumkin boʻlgan sovgʻa qiymati, shuningdek uni tasarruf etish tartibi toʻgʻrisidagi nizom", file: file24 },
+    { id: 25, name: "11-ilova. Agentlikda korrupsiyaga oid huquqbuzarlik va manfaatlar toʻqnashuvi haqida xabar bergan yoki korrupsiyaga qarshi kurashishda boshqacha tarzda koʻmaklashgan xodimlarni ragʻbatlantirish tartibi toʻgʻrisidagi nizom", file: file25 },
+    { id: 26, name: "12-ilova. Davlat xaridlarini amalga oshirish bilan bogʻliq tartib-taomillarni tashkil etish va oʻtkazish tartibi toʻgʻrisidagi nizom", file: file26 },
   ];
 
   return (

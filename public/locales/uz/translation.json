@@ -27,7 +27,11 @@
       "kadrlar": "Kadrlar masalasi",
       "vacancy": "Boʻsh ish oʻrinlari"
     },
-    "antikorrupsiya": "Antikorrupsiya",
+    "antikorrupsiya":{
+      "menu": "Antikorrupsiya",
+      "docs": "Hujjatlar",
+      "media": "Videolar"
+    },
     "contact_info": "Bogʻlanish"
   },
   "CarouselHeader": {
@@ -66,10 +70,13 @@
     "Title": "Davlat mulkini ijaraga berishda tadbirkorlik subyektlariga berilgan imtiyozlar to‘g‘risida maʼlumotlar"
   },
   "Antikorrupsiya": {
-    "Title": "Korrupsiyaga qarshi kurash bo‘yicha hujjatlar"
+    "Title": "Korrupsiyaga qarshi kurash bo‘yicha hujjatlar",
+    "mediaTitle": "Korrupsiyaga qarshi kurash bo‘yicha videolar"
   },
   "Kadrlar": {
-    "Title": "Davlat mulki obyektlaridan samarali foydalanish markazida hisobot davrida ishga qabul qilingan (rotatsiya qilingan) rahbar kadrlar to‘g‘risidagi maʼlumot"
+    "title3": "Davlat mulki obyektlaridan samarali foydalanish markazining bo‘sh ish o‘rinlari haqida MA’LUMOT",
+    "title2": "",
+    "title1": "Davlat mulki obyektlaridan samarali foydalanish markazida hisobot davrida ishga qabul qilingan (rotatsiya qilingan) rahbar kadrlar to‘g‘risidagi maʼlumot"
   },
   "News": {
     "title": "Yangiliklar",
