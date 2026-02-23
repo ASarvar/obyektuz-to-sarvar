@@ -254,6 +254,7 @@ a {
 .dropdown-menu {
     background-color: #008cb5;
     margin-top: 6px !important;
+    width: 210px;
 }
 
 .dropdown-item {
@@ -261,7 +262,8 @@ a {
 
     background: linear-gradient(to left, #008cb5 50%, #0c96c0 50%) right;
     background-size: 200%;
-    transition: 0.7s ease-out
+    transition: 0.7s ease-out;
+    white-space: wrap;
 }
 
 .dropdown-item:hover {

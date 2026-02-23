@@ -30,7 +30,8 @@
     "antikorrupsiya":{
       "menu": "Antikorrupsiya",
       "docs": "Hujjatlar",
-      "media": "Videolar"
+      "media": "Videolar",
+      "manfaat": "Manfaatlar toʻqnashuvi holatlari hamda korrupsiya haqida xabar berish"
     },
     "contact_info": "Bogʻlanish"
   },
@@ -116,23 +117,5 @@
     "locationInfo1": "100060, Toshkent shahri",
     "locationInfo2": "Amir Temur shoh ko'chasi,",
     "locationInfo3": "6-uy"
-  },
-  "machineService": {
-    "title": "Mashinalar va mexanizmlarning xizmatlari",
-    "bobcat": "Bobcat mini yuklagichi",
-    "DOOSAN": "DOOSAN DX160W g'ildirakli ekskavator",
-    "DYNAPAC": "DYNAPAC CA 2500D  tuproq roligi",
-    "ISUZU": "ISUZU FVR 33 PLX avtoulovi",
-    "JCB": "JCB 3CX 14M2WM yuklovchi ekskavator",
-    "LIEBHERR": "LIEBHERR A904 g'ildirakli ekskavator",
-    "LIEBHERR2": "LIEBHERR R924 zanjirli ekskavator",
-    "manTgs1": "MAN TGS 33.360, 6x4 BB- 20 tn avtosamosval",
-    "manTgs2": "MAN TGS 40.400, 6x4 BB-25 tn avtosamosval",
-    "manTgs3": "MAN-SCTF-U334.01 konteynerli yarim tirkamali avtoulov MAN TGS 26.400 6x4 BLS",
-    "SANY": "SANY SYM5333JQZ avtokrani",
-    "Shacman": "Shacman suv tashuvchisi",
-    "VodovozShacman": "Shacman suv tashuvchisi",
-    "shantui": "SHANTUI SD 22  buldozeri",
-    "diamondBox": "Kompaniyaning qurilish uskunalari butunlay yangi, bu ularni ikki yoki uch smenada ishlatilishiga imkon beradi."
   }
 }

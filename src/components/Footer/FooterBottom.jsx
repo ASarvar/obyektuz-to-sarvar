@@ -7,7 +7,7 @@ const FooterBottom = () => {
       <Container>
         <Row className="footerRow">
           <Col lg="6" md="6" sm="8">
-            <p className="left-text">© 2023 Davlat mulki obyektlari markazi. </p>
+            <p className="left-text">© 2026 Davlat mulki obyektlari markazi. </p>
           </Col>
           <Col lg="6" md="6" sm="8">
             <p className="right-text">

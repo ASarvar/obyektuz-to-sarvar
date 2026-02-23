@@ -252,6 +252,9 @@ const Header = (props) => {
                     <NavDropdown.Item as={Link} className="navDrop" to="/media">
                       {t("Menu.antikorrupsiya.media")}
                     </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} className="navDrop" to="/antikorrupsiya_manfaat">
+                      {t("Menu.antikorrupsiya.manfaat")}
+                    </NavDropdown.Item>
                   </NavDropdown>
 
                   <Nav.Link as={Link} className="navLink hover" to="/contacts">
