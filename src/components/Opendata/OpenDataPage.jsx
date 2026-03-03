@@ -56,6 +56,10 @@ import data2523 from "../../assets/opendata/25-2/3_Давлат_объектла
 import data2531 from "../../assets/opendata/25-3/1_Давлат_объектларидан_фойдаланиш_маркази_Бюджет_маблаглари_ижроси.xlsx";
 import data2532 from "../../assets/opendata/25-3/2_Давлат_объектларидан_фойдаланиш_маркази_Бюджетдан_ташкари_маблаглари.xlsx";
 import data2533 from "../../assets/opendata/25-3/3_Давлат_объектларидан_фойдаланиш_маркази_Ривожлантириш_жамгармаси.xlsx";
+// 4-chorak
+import data254_1 from "../../assets/opendata/25-4/1_Давлат_объектларидан_фойдаланиш_маркази_Бюджет_маблаглари_ижроси.xlsx";
+import data254_2 from "../../assets/opendata/25-4/2_Давлат_объектларидан_фойдаланиш_маркази_Бюджетдан_ташкари_маблаглари.xlsx";
+import data254_3 from "../../assets/opendata/25-4/3_Давлат_объектларидан_фойдаланиш_маркази_Ривожлантириш_жамгармаси.xlsx";
 
 //4. Byudjet jarayonining ochiqligini taʼminlash maqsadida veb-saytlarga maʼlumotlarni joylashtirish tartibiga (ro‘yxat raqami -3299) muvofiq maʼlumotlar
 // 2-3-4-chorak
@@ -73,6 +77,7 @@ import data2444 from "../../assets/opendata/24-4/4_Давлат_объектла
 import data2541 from "../../assets/opendata/25-1/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2025_1_кв.xlsx";
 import data2542 from "../../assets/opendata/25-2/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2025_2_кв.xlsx";
 import data2543 from "../../assets/opendata/25-3/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2025_3_кв.xlsx";
+import data2544 from "../../assets/opendata/25-4/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2025_4_кв.xlsx";
 
 //5. Davlat mulki obyektlaridan samarali foydalanish markazi | Balans
 // 1-2-3-4-chorak
@@ -91,6 +96,7 @@ import data2454 from "../../assets/opendata/24-4/5_Давлат_объектла
 import data2551 from "../../assets/opendata/25-1/5_Давлат_объектларидан_фойдаланиш_маркази_Баланс_2025_1_кв.xlsx";
 import data2552 from "../../assets/opendata/25-2/5_Давлат_объектларидан_фойдаланиш_маркази_Баланс_2025_2_кв.xlsx";
 import data2553 from "../../assets/opendata/25-3/5_Давлат_объектларидан_фойдаланиш_маркази_Баланс_2025_3_кв.xlsx";
+import data2554 from "../../assets/opendata/25-4/5_Давлат_объектларидан_фойдаланиш_маркази_Баланс_2025_4_кв.xlsx";
 
 //6. Davlat mulki obyektlaridan samarali foydalanish markazining debitor va kreditor qarzdorliklari yuzasidan maʼlumotlar
 // 1-2-3-4-chorak
@@ -109,6 +115,7 @@ import data2464 from "../../assets/opendata/24-4/6_Давлат_объектла
 import data2561 from "../../assets/opendata/25-1/6_Давлат_объектларидан_фойдаланиш_маркази_Деб_Кред_карздорлик_2025.xlsx";
 import data2562 from "../../assets/opendata/25-2/6_Давлат_объектларидан_фойдаланиш_маркази_Деб_Кред_карздорлик_2025.xlsx";
 import data2563 from "../../assets/opendata/25-3/6_Давлат_объектларидан_фойдаланиш_маркази_Деб_Кред_карздорлик_2025.xlsx";
+import data2564 from "../../assets/opendata/25-4/6_Давлат_объектларидан_фойдаланиш_маркази_Деб_Кред_карздорлик_2025.xlsx";
 
 //7. Vazirlik va idoralar, boshqaruv organlari va boshqa tashkilotlar bo‘yicha tarmoq, shtatlar va kontingentga doir rejaning bajarilishi (byudjet mablag‘lari bo‘yicha) to‘g‘risida
 // 1-2-3-4-chorak
@@ -125,6 +132,7 @@ import data2474 from "../../assets/opendata/24-4/7_Давлат_объектла
 import data2571 from "../../assets/opendata/25-1/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2025_1_кв.xlsx";
 import data2572 from "../../assets/opendata/25-2/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2025_2_кв.xlsx";
 import data2573 from "../../assets/opendata/25-3/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2025_3_кв.xlsx";
+import data2574 from "../../assets/opendata/25-4/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2025_4_кв.xlsx";
 
 //8. Davlat mulki obyektlaridan samarali foydalanish markazining byudjet va byudjetdan tashqari mablag‘lari hisobiga amalga oshirilgan davlat xaridlari to‘g‘risida maʼlumot
 // 2-3-4-chorak
@@ -141,6 +149,7 @@ import data2484 from "../../assets/opendata/24-4/8_Давлат_объектла
 import data2581 from "../../assets/opendata/25-1/8_Давлат_объектларидан_фойдаланиш_маркази_Давлат_харидлари_2025.xlsx";
 import data2582 from "../../assets/opendata/25-2/8_Давлат_объектларидан_фойдаланиш_маркази_Давлат_харидлари_2025.xlsx";
 import data2583 from "../../assets/opendata/25-3/8_Давлат_объектларидан_фойдаланиш_маркази_Давлат_харидлари_2025.xlsx";
+import data2584 from "../../assets/opendata/25-4/8_Давлат_объектларидан_фойдаланиш_маркази_Давлат_харидлари_2025.xlsx";
 
 //9. Davlat mulki obyektlaridan samarali foydalanish markazining xodimlarining xizmat safari xarajatlari to‘g‘risida maʼlumot
 // 1-2-3-4-chorak
@@ -156,6 +165,7 @@ import data2494 from "../../assets/opendata/24-4/9_Давлат_объектла
 import data2591 from "../../assets/opendata/25-1/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2025_1_кв.xlsx";
 import data2592 from "../../assets/opendata/25-2/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2025_2_кв.xlsx";
 import data2593 from "../../assets/opendata/25-3/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2025_3_кв.xlsx";
+import data2594 from "../../assets/opendata/25-4/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2025_4_кв.xlsx";
 
 
 //Davlat mulki obyektlaridan samarali foydalanish markazining davlat byudjeti, davlat maqsadli jamg‘armalari hamda byudjet tashkilotlarining byudjetdan tashqari jamg‘armalari hisobiga xarid qilinishi rejalashtirilgan tovarlar (ishlar, xizmatlar) to‘g‘risidagi maʼlumot
@@ -173,6 +183,7 @@ import data24104 from "../../assets/opendata/24-4/10_Давлат_объектл
 import data25101 from "../../assets/opendata/25-1/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2025.xlsx";
 import data25102 from "../../assets/opendata/25-2/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2025.xlsx";
 import data25103 from "../../assets/opendata/25-3/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2025.xlsx";
+import data25104 from "../../assets/opendata/25-4/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2025.xlsx";
 
 //O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi huzuridagi davlat mulki obyektlaridan samarali foydalanish Markaziga tegishli xizmat avtotransport holati to‘g‘risida maʼlumot
 //2024
@@ -185,6 +196,7 @@ import data24114 from "../../assets/opendata/24-4/11_Давлат_объектл
 import data25111 from "../../assets/opendata/25-1/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
 import data25112 from "../../assets/opendata/25-2/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
 import data25113 from "../../assets/opendata/25-3/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
+import data25114 from "../../assets/opendata/25-4/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
 
 const OpenDataPage = () => {
   const { t } = useTranslation();
@@ -454,6 +466,27 @@ const OpenDataPage = () => {
               </td>
             </tr>
           </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data254_1} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+                &nbsp; / &nbsp;{" "}
+                <a href={data254_2} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+                &nbsp; / &nbsp;{" "}
+                <a href={data254_3} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>
+              </td>
+            </tr>
+          </tbody>
         </table>
 
         <p className="title2">
@@ -607,6 +640,19 @@ const OpenDataPage = () => {
               <td>2025-yil 3-chorak</td>
               <td>
                 <a href={data2543} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data2544} target="_blank" rel="noreferrer">
                   Yuklab olish
                 </a>{" "}
               </td>
@@ -780,6 +826,19 @@ const OpenDataPage = () => {
               </td>
             </tr>
           </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data2554} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
         </table>
 
         <p className="title2">
@@ -947,6 +1006,19 @@ const OpenDataPage = () => {
               </td>
             </tr>
           </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data2564} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
         </table>
 
         <p className="title2">
@@ -1099,6 +1171,19 @@ const OpenDataPage = () => {
               <td>2025-yil 3-chorak</td>
               <td>
                 <a href={data2573} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data2574} target="_blank" rel="noreferrer">
                   Yuklab olish
                 </a>{" "}
               </td>
@@ -1261,6 +1346,19 @@ const OpenDataPage = () => {
               </td>
             </tr>
           </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data2584} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
         </table>
 
         <p className="title2">
@@ -1417,6 +1515,19 @@ const OpenDataPage = () => {
               </td>
             </tr>
           </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data2594} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
         </table>
 
         <p className="title2">
@@ -1565,6 +1676,19 @@ const OpenDataPage = () => {
               </td>
             </tr>
           </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data25104} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
         </table>
 
         <p className="title2">
@@ -1673,6 +1797,19 @@ const OpenDataPage = () => {
               <td>2025-yil 3-chorak</td>
               <td>
                 <a href={data25113} target="_blank" rel="noreferrer">
+                  Yuklab olish
+                </a>{" "}
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>
+                <p className="first">1</p>
+              </td>
+              <td>2025-yil 4-chorak</td>
+              <td>
+                <a href={data25114} target="_blank" rel="noreferrer">
                   Yuklab olish
                 </a>{" "}
               </td>
