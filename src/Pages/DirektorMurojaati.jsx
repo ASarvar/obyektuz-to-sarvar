@@ -2,16 +2,17 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import FooterBottom from "../components/Footer/FooterBottom";
-import NewsSingleMock from "../components/News/NewsSingleMock";
+import DirektorMurojaati from "../components/DirektorMurojaati/DirektorMurojaati";
 
-const NewsPage = () => {
+const DirektorMurojaatiPage = () => {
   return (
     <>
       <Header position="menu_nav" />
-      <NewsSingleMock />
+      <DirektorMurojaati />
       <Footer />
       <FooterBottom />
     </>
   );
 };
-export default NewsPage;
+
+export default DirektorMurojaatiPage;

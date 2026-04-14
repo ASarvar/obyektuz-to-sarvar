@@ -26,6 +26,7 @@ import Kadrlar from './Pages/Kadrlar'
 import Antikorrupsiya from './Pages/Antikorrupsiya'
 import Antikorrup_media from './Pages/Antikorrup_media'
 import AntikorrupManfaat from './Pages/AntikorrupsiyaManfaat'
+import DirektorMurojaatiPage from './Pages/DirektorMurojaati'
 
 
 function App() {
@@ -42,7 +43,8 @@ function App() {
           <Route exact path="/repairs" component={Repairs}></Route>
           <Route exact path="/news" component={NewsPage}></Route>
           <Route exact path="/contacts" component={Contact}></Route>
-          <Route exact path="/articles" component={NewsSingle}></Route>
+          <Route exact path="/articles" component={NewsPage}></Route>
+          <Route exact path="/articles/:id" component={NewsSingle}></Route>
           <Route exact path="/services" component={Services}></Route>
           <Route exact path="/register" component={Register}></Route>
           <Route exact path="/structure" component={Structure}></Route>
@@ -57,6 +59,7 @@ function App() {
           <Route exact path="/kadrlar" component={Kadrlar}></Route>
           <Route exact path="/antikorrupsiya" component={Antikorrupsiya}></Route>
           <Route exact path="/antikorrupsiya_manfaat" component={AntikorrupManfaat}></Route>
+          <Route exact path="/direktor_murojaati" component={DirektorMurojaatiPage}></Route>
           <Route exact path="/media" component={Antikorrup_media}></Route>
           <Route  path="*" component={NotFound}></Route>
         </Switch>

@@ -1,0 +1,111 @@
+.direktorPage {
+    padding: 30px 0 80px;
+    position: relative;
+    background: #ffffff;
+}
+
+.direktorHeader {
+    padding: 30px 0;
+}
+
+.direktorTitle {
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    color: #363636;
+}
+
+.direktorCard {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 18px 60px 26px;
+    border-radius: 8px;
+    border: 1px solid #e7eaf2;
+    background: #ffffff;
+}
+
+.direktorCardTitle {
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #0142ec;
+}
+
+.direktorDivider {
+    width: 54px;
+    height: 3px;
+    margin: 14px auto 24px;
+    border-radius: 3px;
+    background: #0142ec;
+}
+
+.direktorContent {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f5f5f;
+}
+
+.direktorContent p {
+    margin-bottom: 12px;
+}
+
+.direktorContent ul {
+    padding-left: 22px;
+    margin: 8px 0 12px;
+}
+
+.direktorContent li {
+    margin-bottom: 4px;
+}
+
+.direktorInlineLink {
+    color: #0153d9;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.direktorNoWrap {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.direktorSign {
+    margin-top: 24px;
+    padding-top: 10px;
+    text-align: right;
+    border-top: 1px dashed #d6def2;
+    color: #363636;
+}
+
+@media screen and (max-width: 768px) {
+    .direktorPage {
+        padding: 22px 0 56px;
+    }
+
+    .direktorTitle {
+        font-size: 14px;
+    }
+
+    .direktorCard {
+        padding: 18px 14px;
+        border-radius: 6px;
+    }
+
+    .direktorCardTitle {
+        font-size: 18px;
+    }
+
+    .direktorContent {
+        font-size: 14px;
+        line-height: 145%;
+    }
+}
