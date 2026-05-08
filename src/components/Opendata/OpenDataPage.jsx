@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "./Opendata.css";
 import { useTranslation } from "react-i18next";
 
@@ -61,6 +61,12 @@ import data254_1 from "../../assets/opendata/25-4/1_Давлат_объектл�
 import data254_2 from "../../assets/opendata/25-4/2_Давлат_объектларидан_фойдаланиш_маркази_Бюджетдан_ташкари_маблаглари.xlsx";
 import data254_3 from "../../assets/opendata/25-4/3_Давлат_объектларидан_фойдаланиш_маркази_Ривожлантириш_жамгармаси.xlsx";
 
+//2026
+// 1-chorak
+import data2611 from "../../assets/opendata/26-1/1_Давлат_объектларидан_фойдаланиш_маркази_Бюджет_маблаглари_ижроси.xlsx";
+import data2612 from "../../assets/opendata/26-1/2_Давлат_объектларидан_фойдаланиш_маркази_Бюджетдан_ташкари_маблаглари.xlsx";
+import data2613 from "../../assets/opendata/26-1/3_Давлат_объектларидан_фойдаланиш_маркази_Ривожлантириш_жамгармаси.xlsx";
+
 //4. Byudjet jarayonining ochiqligini taʼminlash maqsadida veb-saytlarga maʼlumotlarni joylashtirish tartibiga (ro‘yxat raqami -3299) muvofiq maʼlumotlar
 // 2-3-4-chorak
 import data4 from "../../assets/opendata/1-14 иловалар (2-чорак) Марказ.xlsx";
@@ -78,6 +84,9 @@ import data2541 from "../../assets/opendata/25-1/4_Давлат_объектла
 import data2542 from "../../assets/opendata/25-2/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2025_2_кв.xlsx";
 import data2543 from "../../assets/opendata/25-3/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2025_3_кв.xlsx";
 import data2544 from "../../assets/opendata/25-4/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2025_4_кв.xlsx";
+
+// 2026
+import data2641 from "../../assets/opendata/26-1/4_Давлат_объектларидан_фойдаланиш_маркази_1_14_иловалар_2026_1_кв.xlsx";
 
 //5. Davlat mulki obyektlaridan samarali foydalanish markazi | Balans
 // 1-2-3-4-chorak
@@ -98,6 +107,9 @@ import data2552 from "../../assets/opendata/25-2/5_Давлат_объектла
 import data2553 from "../../assets/opendata/25-3/5_Давлат_объектларидан_фойдаланиш_маркази_Баланс_2025_3_кв.xlsx";
 import data2554 from "../../assets/opendata/25-4/5_Давлат_объектларидан_фойдаланиш_маркази_Баланс_2025_4_кв.xlsx";
 
+// 2026
+import data2651 from "../../assets/opendata/26-1/5_Давлат_объектларидан_фойдаланиш_маркази_Баланс_2026_1_кв.xlsx";
+
 //6. Davlat mulki obyektlaridan samarali foydalanish markazining debitor va kreditor qarzdorliklari yuzasidan maʼlumotlar
 // 1-2-3-4-chorak
 import data61 from "../../assets/opendata/Дебиторлик кредиторлик карздорлик тугрисида маълумот 1 кв 2023.xlsx";
@@ -117,6 +129,9 @@ import data2562 from "../../assets/opendata/25-2/6_Давлат_объектла
 import data2563 from "../../assets/opendata/25-3/6_Давлат_объектларидан_фойдаланиш_маркази_Деб_Кред_карздорлик_2025.xlsx";
 import data2564 from "../../assets/opendata/25-4/6_Давлат_объектларидан_фойдаланиш_маркази_Деб_Кред_карздорлик_2025.xlsx";
 
+// 2026
+import data2661 from "../../assets/opendata/26-1/6_Давлат_объектларидан_фойдаланиш_маркази_Деб_Кред_карздорлик_2026.xlsx";
+
 //7. Vazirlik va idoralar, boshqaruv organlari va boshqa tashkilotlar bo‘yicha tarmoq, shtatlar va kontingentga doir rejaning bajarilishi (byudjet mablag‘lari bo‘yicha) to‘g‘risida
 // 1-2-3-4-chorak
 import data71 from "../../assets/opendata/Сеть отчёт 1 кв.xlsx";
@@ -133,6 +148,9 @@ import data2571 from "../../assets/opendata/25-1/7_Давлат_объектла
 import data2572 from "../../assets/opendata/25-2/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2025_2_кв.xlsx";
 import data2573 from "../../assets/opendata/25-3/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2025_3_кв.xlsx";
 import data2574 from "../../assets/opendata/25-4/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2025_4_кв.xlsx";
+
+// 2026
+import data2671 from "../../assets/opendata/26-1/7_Давлат_объектларидан_фойдаланиш_маркази_Сеть_отчёт_2026_1_кв.xlsx";
 
 //8. Davlat mulki obyektlaridan samarali foydalanish markazining byudjet va byudjetdan tashqari mablag‘lari hisobiga amalga oshirilgan davlat xaridlari to‘g‘risida maʼlumot
 // 2-3-4-chorak
@@ -151,6 +169,9 @@ import data2582 from "../../assets/opendata/25-2/8_Давлат_объектла
 import data2583 from "../../assets/opendata/25-3/8_Давлат_объектларидан_фойдаланиш_маркази_Давлат_харидлари_2025.xlsx";
 import data2584 from "../../assets/opendata/25-4/8_Давлат_объектларидан_фойдаланиш_маркази_Давлат_харидлари_2025.xlsx";
 
+// 2026
+import data2681 from "../../assets/opendata/26-1/8_Давлат_объектларидан_фойдаланиш_маркази_Давлат_харидлари_2026.xlsx";
+
 //9. Davlat mulki obyektlaridan samarali foydalanish markazining xodimlarining xizmat safari xarajatlari to‘g‘risida maʼlumot
 // 1-2-3-4-chorak
 import data9 from "../../assets/opendata/Командировка  январь-июнь 2023 г.xlsx";
@@ -166,6 +187,8 @@ import data2591 from "../../assets/opendata/25-1/9_Давлат_объектла
 import data2592 from "../../assets/opendata/25-2/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2025_2_кв.xlsx";
 import data2593 from "../../assets/opendata/25-3/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2025_3_кв.xlsx";
 import data2594 from "../../assets/opendata/25-4/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2025_4_кв.xlsx";
+// 2026
+import data2691 from "../../assets/opendata/26-1/9_Давлат_объектларидан_фойдаланиш_маркази_Командировка_2026_1_кв.xlsx";
 
 
 //Davlat mulki obyektlaridan samarali foydalanish markazining davlat byudjeti, davlat maqsadli jamg‘armalari hamda byudjet tashkilotlarining byudjetdan tashqari jamg‘armalari hisobiga xarid qilinishi rejalashtirilgan tovarlar (ishlar, xizmatlar) to‘g‘risidagi maʼlumot
@@ -184,6 +207,8 @@ import data25101 from "../../assets/opendata/25-1/10_Давлат_объектл
 import data25102 from "../../assets/opendata/25-2/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2025.xlsx";
 import data25103 from "../../assets/opendata/25-3/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2025.xlsx";
 import data25104 from "../../assets/opendata/25-4/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2025.xlsx";
+//2026
+import data26101 from "../../assets/opendata/26-1/10_Давлат_объектларидан_фойдаланиш_маркази_Харидлар_режаси_2026.xlsx";
 
 //O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi huzuridagi davlat mulki obyektlaridan samarali foydalanish Markaziga tegishli xizmat avtotransport holati to‘g‘risida maʼlumot
 //2024
@@ -197,1625 +222,235 @@ import data25111 from "../../assets/opendata/25-1/11_Давлат_объектл
 import data25112 from "../../assets/opendata/25-2/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
 import data25113 from "../../assets/opendata/25-3/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
 import data25114 from "../../assets/opendata/25-4/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
+//2026
+import data26111 from "../../assets/opendata/26-1/11_Давлат_объектларидан_фойдаланиш_Маркази_Хизмат_автотранспорт.xlsx";
+
+const DownloadBtn = ({ href, num }) => (
+  <a href={href} target="_blank" rel="noreferrer" className="od-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7 10 12 15 17 10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+    {num ? num + '-fayl' : 'Yuklab olish'}
+  </a>
+);
+
+const OdSection = ({ num, title, rows }) => {
+  const byYear = rows.reduce((acc, row) => {
+    if (!acc[row.year]) acc[row.year] = [];
+    acc[row.year].push(row);
+    return acc;
+  }, {});
+
+  return (
+    <div className="od-card">
+      <div className="od-card-head">
+        <span className="od-badge">{num}</span>
+        <p className="od-card-title">{title}</p>
+      </div>
+      <div className="od-body">
+        {Object.entries(byYear).map(([year, yearRows]) => (
+          <div key={year} className="od-year-group">
+            <div className="od-year-label">{year}-yil</div>
+            <div className="od-quarters-grid">
+              {yearRows.map((row, i) => (
+                <div key={i} className="od-quarter-card">
+                  <div className="od-quarter-period">{row.period}</div>
+                  <div className="od-quarter-files">
+                    {row.files.map((f, j) => (
+                      <DownloadBtn key={j} href={f} num={row.files.length > 1 ? j + 1 : null} />
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 const OpenDataPage = () => {
   const { t } = useTranslation();
 
+  const sections = [
+    {
+      num: '1–3',
+      title: "Davlat mulki obyektlaridan samarali foydalanish markazi xarajatlar smetasining ijrosi boʼyicha maʼlumotlar",
+      rows: [
+        { year: 2023, period: '1-chorak', files: [data11, data12, data13] },
+        { year: 2023, period: '2-chorak', files: [data21, data22, data23] },
+        { year: 2023, period: '3-chorak', files: [data31, data32, data33] },
+        { year: 2023, period: '4-chorak', files: [data141, data142, data143] },
+        { year: 2024, period: '1-chorak', files: [data2411, data2412, data2413] },
+        { year: 2024, period: '2-chorak', files: [data2421, data2422, data2423] },
+        { year: 2024, period: '3-chorak', files: [data2431, data2432, data2433] },
+        { year: 2024, period: '4-chorak', files: [data24_41, data24_42, data24_43] },
+        { year: 2025, period: '1-chorak', files: [data2511, data2512, data2513] },
+        { year: 2025, period: '2-chorak', files: [data2521, data2522, data2523] },
+        { year: 2025, period: '3-chorak', files: [data2531, data2532, data2533] },
+        { year: 2025, period: '4-chorak', files: [data254_1, data254_2, data254_3] },
+        { year: 2026, period: '1-chorak', files: [data2611, data2612, data2613] },
+      ],
+    },
+    {
+      num: '4',
+      title: "Byudjet jarayonining ochiqligini taʼminlash maqsadida veb-saytlarga maʼlumotlarni joylashtirish tartibiga (roʼyxat raqami−3299) muvofiq maʼlumotlar",
+      rows: [
+        { year: 2023, period: '2-chorak', files: [data4] },
+        { year: 2023, period: '3-chorak', files: [data43] },
+        { year: 2023, period: '4-chorak', files: [data44] },
+        { year: 2024, period: '1-chorak', files: [data2441] },
+        { year: 2024, period: '2-chorak', files: [data2442] },
+        { year: 2024, period: '3-chorak', files: [data2443] },
+        { year: 2024, period: '4-chorak', files: [data2444] },
+        { year: 2025, period: '1-chorak', files: [data2541] },
+        { year: 2025, period: '2-chorak', files: [data2542] },
+        { year: 2025, period: '3-chorak', files: [data2543] },
+        { year: 2025, period: '4-chorak', files: [data2544] },
+        { year: 2026, period: '1-chorak', files: [data2641] },
+      ],
+    },
+    {
+      num: '5',
+      title: "Davlat mulki obyektlaridan samarali foydalanish markazi | Balans",
+      rows: [
+        { year: 2023, period: '1-chorak', files: [data51] },
+        { year: 2023, period: '2-chorak', files: [data52] },
+        { year: 2023, period: '3-chorak', files: [data53] },
+        { year: 2023, period: '4-chorak', files: [data54] },
+        { year: 2024, period: '1-chorak', files: [data2451] },
+        { year: 2024, period: '2-chorak', files: [data2452] },
+        { year: 2024, period: '3-chorak', files: [data2453] },
+        { year: 2024, period: '4-chorak', files: [data2454] },
+        { year: 2025, period: '1-chorak', files: [data2551] },
+        { year: 2025, period: '2-chorak', files: [data2552] },
+        { year: 2025, period: '3-chorak', files: [data2553] },
+        { year: 2025, period: '4-chorak', files: [data2554] },
+        { year: 2026, period: '1-chorak', files: [data2651] },
+      ],
+    },
+    {
+      num: '6',
+      title: "Davlat mulki obyektlaridan samarali foydalanish markazining debitor va kreditor qarzdorliklari yuzasidan maʼlumotlar",
+      rows: [
+        { year: 2023, period: '1-chorak', files: [data61] },
+        { year: 2023, period: '2-chorak', files: [data62] },
+        { year: 2023, period: '3-chorak', files: [data63] },
+        { year: 2023, period: '4-chorak', files: [data64] },
+        { year: 2024, period: '1-chorak', files: [data2461] },
+        { year: 2024, period: '2-chorak', files: [data2462] },
+        { year: 2024, period: '3-chorak', files: [data2463] },
+        { year: 2024, period: '4-chorak', files: [data2464] },
+        { year: 2025, period: '1-chorak', files: [data2561] },
+        { year: 2025, period: '2-chorak', files: [data2562] },
+        { year: 2025, period: '3-chorak', files: [data2563] },
+        { year: 2025, period: '4-chorak', files: [data2564] },
+        { year: 2026, period: '1-chorak', files: [data2661] },
+      ],
+    },
+    {
+      num: '7',
+      title: "Vazirlik va idoralar, boshqaruv organlari va boshqa tashkilotlar boʼyicha tarmoq, shtatlar va kontingentga doir rejaning bajarilishi (byudjet mablagʼlari boʼyicha) toʼgʼrisida",
+      rows: [
+        { year: 2023, period: '1-chorak', files: [data71] },
+        { year: 2023, period: '3-chorak', files: [data73] },
+        { year: 2023, period: '4-chorak', files: [data74] },
+        { year: 2024, period: '1-chorak', files: [data2471] },
+        { year: 2024, period: '2-chorak', files: [data2472] },
+        { year: 2024, period: '3-chorak', files: [data2473] },
+        { year: 2024, period: '4-chorak', files: [data2474] },
+        { year: 2025, period: '1-chorak', files: [data2571] },
+        { year: 2025, period: '2-chorak', files: [data2572] },
+        { year: 2025, period: '3-chorak', files: [data2573] },
+        { year: 2025, period: '4-chorak', files: [data2574] },
+        { year: 2026, period: '1-chorak', files: [data2671] },
+      ],
+    },
+    {
+      num: '8',
+      title: "Davlat mulki obyektlaridan samarali foydalanish markazining byudjet va byudjetdan tashqari mablagʼlari hisobiga amalga oshirilgan davlat xaridlari toʼgʼrisida maʼlumot",
+      rows: [
+        { year: 2023, period: '2-chorak', files: [data82] },
+        { year: 2023, period: '3-chorak', files: [data83] },
+        { year: 2023, period: '4-chorak', files: [data84] },
+        { year: 2024, period: '1-chorak', files: [data2481] },
+        { year: 2024, period: '2-chorak', files: [data2482] },
+        { year: 2024, period: '3-chorak', files: [data2483] },
+        { year: 2024, period: '4-chorak', files: [data2484] },
+        { year: 2025, period: '1-chorak', files: [data2581] },
+        { year: 2025, period: '2-chorak', files: [data2582] },
+        { year: 2025, period: '3-chorak', files: [data2583] },
+        { year: 2025, period: '4-chorak', files: [data2584] },
+        { year: 2026, period: '1-chorak', files: [data2681] },
+      ],
+    },
+    {
+      num: '9',
+      title: "Davlat mulki obyektlaridan samarali foydalanish markazining xodimlarining xizmat safari xarajatlari toʼgʼrisida maʼlumot",
+      rows: [
+        { year: 2023, period: '1–2-chorak', files: [data9] },
+        { year: 2023, period: '3-chorak', files: [data93] },
+        { year: 2023, period: '4-chorak', files: [data94] },
+        { year: 2024, period: '1-chorak', files: [data2491] },
+        { year: 2024, period: '2-chorak', files: [data2492] },
+        { year: 2024, period: '3-chorak', files: [data2493] },
+        { year: 2024, period: '4-chorak', files: [data2494] },
+        { year: 2025, period: '1-chorak', files: [data2591] },
+        { year: 2025, period: '2-chorak', files: [data2592] },
+        { year: 2025, period: '3-chorak', files: [data2593] },
+        { year: 2025, period: '4-chorak', files: [data2594] },
+        { year: 2026, period: '1-chorak', files: [data2691] },
+      ],
+    },
+    {
+      num: '10',
+      title: "Davlat mulki obyektlaridan samarali foydalanish markazining davlat byudjeti, davlat maqsadli jamgʼamlari hamda byudjet tashkilotlarining byudjetdan tashqari jamgʼamlari hisobiga xarid qilinishi rejalashtirilgan tovarlar (ishlar, xizmatlar) toʼgʼrisidagi maʼlumot",
+      rows: [
+        { year: 2023, period: '3-chorak', files: [data10] },
+        { year: 2023, period: '4-chorak', files: [data103] },
+        { year: 2024, period: '1-chorak', files: [data24101] },
+        { year: 2024, period: '2-chorak', files: [data24102] },
+        { year: 2024, period: '3-chorak', files: [data24103] },
+        { year: 2024, period: '4-chorak', files: [data24104] },
+        { year: 2025, period: '1-chorak', files: [data25101] },
+        { year: 2025, period: '2-chorak', files: [data25102] },
+        { year: 2025, period: '3-chorak', files: [data25103] },
+        { year: 2025, period: '4-chorak', files: [data25104] },
+        { year: 2026, period: '1-chorak', files: [data26101] },
+      ],
+    },
+    {
+      num: '11',
+      title: "Oʼbekiston Respublikasi Davlat aktivlarini boshqarish agentligi huzuridagi davlat mulki obyektlaridan samarali foydalanish Markaziga tegishli xizmat avtotransport holati toʼgʼrisida maʼlumot",
+      rows: [
+        { year: 2024, period: '1-chorak', files: [data24111] },
+        { year: 2024, period: '2-chorak', files: [data24112] },
+        { year: 2024, period: '3-chorak', files: [data24113] },
+        { year: 2024, period: '4-chorak', files: [data24114] },
+        { year: 2025, period: '1-chorak', files: [data25111] },
+        { year: 2025, period: '2-chorak', files: [data25112] },
+        { year: 2025, period: '3-chorak', files: [data25113] },
+        { year: 2025, period: '4-chorak', files: [data25114] },
+        { year: 2026, period: '1-chorak', files: [data26111] },
+      ],
+    },
+  ];
+
   return (
-    <div className="aboutContentBox">
+    <div className="od-page">
       <Container>
-        <Row>
-          <Col lg="12" md="12" sm="12">
-            <div className="AboutContent">
-              <h3 className="secondTitle">{t("Opendata.Title")}</h3>
-            </div>
-          </Col>
-        </Row>
-        <Row className="str-chart"></Row>
-        <Row>
-          <p className="title1">
-            {" "}
-            Davlat mulki obyektlaridan samarali foydalanish markazi xarajatlar
-            smetasining ijrosi bo‘yicha maʼlumotlar{" "}
-          </p>
-        </Row>
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 1-chorak</td>
-              <td>
-                <a href={data11} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data12} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data13} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 2-chorak</td>
-              <td>
-                <a href={data21} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data22} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data23} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data31} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data32} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data33} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data141} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data142} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data143} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data2411} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2412} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2413} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data2421} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2422} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2423} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data2431} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2432} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2433} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data24_41} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data24_42} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data24_43} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025 */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data2511} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2512} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2513} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data2521} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2522} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2523} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data2531} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2532} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data2533} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data254_1} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data254_2} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-                &nbsp; / &nbsp;{" "}
-                <a href={data254_3} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          Byudjet jarayonining ochiqligini taʼminlash maqsadida veb-saytlarga
-          maʼlumotlarni joylashtirish tartibiga (ro‘yxat raqami -3299) muvofiq
-          maʼlumotlar{" "}
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 2-chorak</td>
-              <td>
-                <a href={data4} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data43} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data44} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        {/* 2024  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data2441} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data2442} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data2443} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data2444} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data2541} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data2542} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data2543} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data2544} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          Davlat mulki obyektlaridan samarali foydalanish markazi | Balans
-          maʼlumotlar{" "}
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 1-chorak</td>
-              <td>
-                <a href={data51} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 2-chorak</td>
-              <td>
-                <a href={data52} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data53} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data54} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        {/* 2024 */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data2451} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data2452} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data2453} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data2454} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data2551} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data2552} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data2553} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data2554} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          Davlat mulki obyektlaridan samarali foydalanish markazining debitor va
-          kreditor qarzdorliklari yuzasidan maʼlumotlar{" "}
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 1-chorak</td>
-              <td>
-                <a href={data61} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 2-chorak</td>
-              <td>
-                <a href={data62} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data63} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data64} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2024 */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data2461} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data2462} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data2463} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data2464} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data2561} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data2562} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data2563} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data2564} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          Vazirlik va idoralar, boshqaruv organlari va boshqa tashkilotlar
-          bo‘yicha tarmoq, shtatlar va kontingentga doir rejaning bajarilishi
-          (byudjet mablag‘lari bo‘yicha) to‘g‘risida{" "}
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 1-chorak</td>
-              <td>
-                <a href={data71} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data73} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data74} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2024 */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data2471} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data2472} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data2473} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data2474} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data2571} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data2572} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data2573} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data2574} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          Davlat mulki obyektlaridan samarali foydalanish markazining byudjet va
-          byudjetdan tashqari mablag‘lari hisobiga amalga oshirilgan davlat
-          xaridlari to‘g‘risida maʼlumot{" "}
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 2-chorak</td>
-              <td>
-                <a href={data82} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data83} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data84} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2024 */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data2481} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data2482} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data2483} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data2484} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data2581} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data2582} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data2583} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data2584} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          Davlat mulki obyektlaridan samarali foydalanish markazining
-          xodimlarining xizmat safari xarajatlari to‘g‘risida maʼlumot
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 1-2-chorak</td>
-              <td>
-                <a href={data9} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data93} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data94} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2024 */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data2491} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data2492} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data2493} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data2494} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data2591} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data2592} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data2593} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data2594} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          Davlat mulki obyektlaridan samarali foydalanish markazining davlat
-          byudjeti, davlat maqsadli jamg‘armalari hamda byudjet
-          tashkilotlarining byudjetdan tashqari jamg‘armalari hisobiga xarid
-          qilinishi rejalashtirilgan tovarlar (ishlar, xizmatlar) to‘g‘risidagi
-          maʼlumot
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2023-yil 3-chorak</td>
-              <td>
-                <a href={data10} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2023-yil 4-chorak</td>
-              <td>
-                <a href={data103} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2024 */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2024-yil 1-chorak</td>
-              <td>
-                <a href={data24101} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td>2024-yil 2-chorak</td>
-              <td>
-                <a href={data24102} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td>2024-yil 3-chorak</td>
-              <td>
-                <a href={data24103} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td>2024-yil 4-chorak</td>
-              <td>
-                <a href={data24104} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data25101} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data25102} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data25103} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data25104} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="title2">
-          {" "}
-          O‘zbekiston Respublikasi Davlat aktivlarini boshqarish agentligi
-          huzuridagi davlat mulki obyektlaridan samarali foydalanish Markaziga
-          tegishli xizmat avtotransport holati to‘g‘risida maʼlumot
-        </p>
-
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first">#</td>
-              <td>Davr</td>
-              <td>Fayl</td>
-            </tr>
-            {/* 2024 */}
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td className="tdwidth">2024-yil 1-chorak</td>
-              <td>
-                <a href={data24111} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">2</p>
-              </td>
-              <td className="tdwidth">2024-yil 2-chorak</td>
-              <td>
-                <a href={data24112} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p className="first">3</p>
-              </td>
-              <td className="tdwidth">2024-yil 3-chorak</td>
-              <td>
-                <a href={data24113} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-            <tr className="bgtr">
-              <td>
-                <p className="first">4</p>
-              </td>
-              <td className="tdwidth">2024-yil 4-chorak</td>
-              <td>
-                <a href={data24114} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {/* 2025  */}
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <td className="first"></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 1-chorak</td>
-              <td>
-                <a href={data25111} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 2-chorak</td>
-              <td>
-                <a href={data25112} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 3-chorak</td>
-              <td>
-                <a href={data25113} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td>
-                <p className="first">1</p>
-              </td>
-              <td>2025-yil 4-chorak</td>
-              <td>
-                <a href={data25114} target="_blank" rel="noreferrer">
-                  Yuklab olish
-                </a>{" "}
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="od-hero">
+          <h1 className="od-hero-title">{t('Opendata.Title')}</h1>
+          <p className="od-hero-sub">Ochiq maʼlumotlar roʼyxati</p>
+        </div>
+        <div className="od-sections">
+          {sections.map((s, i) => (
+            <OdSection key={i} num={s.num} title={s.title} rows={s.rows} />
+          ))}
+        </div>
       </Container>
     </div>
   );

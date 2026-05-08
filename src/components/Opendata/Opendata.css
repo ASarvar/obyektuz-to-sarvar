@@ -1,6 +1,229 @@
-.AboutContent {
-    padding: 30px 0 30px 0;
+/* ─── Legacy styles (kept for other components that may use them) ─── */
+.AboutContent { padding: 30px 0; }
+.aboutContentBox { position: relative; }
+.secondTitle { font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 22px; text-align: center; color: #363636; }
+.firstTitle { padding-bottom: 30px; font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 44px; text-align: center; color: #0142EC; }
+.text-content { font-family: Roboto, sans-serif; font-size: 18px; line-height: 1.5; color: #5F5F5F; }
+
+/* ─── Open Data Page ─── */
+.od-page {
+  background: #f4f6fb;
+  padding: 0 0 60px 0;
+  min-height: 60vh;
 }
+
+.od-hero {
+  text-align: center;
+  padding: 52px 0 36px;
+}
+
+.od-hero-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #0f1f45;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.od-hero-sub {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  color: #8a94a6;
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ─── Sections ─── */
+.od-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.od-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(1, 66, 236, 0.07);
+  overflow: hidden;
+  border: 1px solid #e8edf8;
+}
+
+.od-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px 24px;
+  background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
+  border-bottom: 1px solid #e4eaf8;
+}
+
+.od-badge {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 0 8px;
+  background: #008cb5;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-top: 2px;
+}
+
+.od-card-title {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a2340;
+  margin: 0;
+  line-height: 1.55;
+  padding-top: 8px;
+}
+
+/* ─── Grid body ─── */
+.od-body {
+  padding: 16px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Year group */
+.od-year-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.od-year-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f1f45;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 4px 10px;
+  background: #eef2ff;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* 2-column equal grid */
+.od-quarters-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.od-quarter-card {
+  background: #f8faff;
+  border: 1px solid #e4eaf8;
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.od-quarter-period {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2d3a55;
+}
+
+.od-quarter-files {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+/* ─── Download Button ─── */
+.od-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  background: #eef2ff;
+  color: var(--bs-link-color);
+  border: 1px solid var(--bs-link-color);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s, border-color 0.18s, box-shadow 0.18s;
+  white-space: nowrap;
+}
+
+.od-btn:hover {
+  background: var(--bs-link-color);
+  color: #ffffff;
+  border-color: var(--bs-link-color);
+  box-shadow: 0 3px 10px rgba(108, 117, 125, 0.25);
+  text-decoration: none;
+}
+
+.od-btn svg {
+  flex-shrink: 0;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .od-hero-title {
+    font-size: 26px;
+  }
+
+  .od-card-head {
+    padding: 14px 16px;
+    gap: 10px;
+  }
+
+  .od-badge {
+    min-width: 34px;
+    height: 34px;
+    font-size: 12px;
+  }
+
+  .od-card-title {
+    font-size: 13px;
+  }
+
+  .od-body {
+    padding: 12px 14px 16px;
+  }
+
+  .od-quarters-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .od-quarter-card {
+    padding: 10px 12px;
+  }
+
+  .od-btn {
+    font-size: 12px;
+    padding: 4px 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .od-quarters-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 .secondTitle {
     font-family: Open Sans;

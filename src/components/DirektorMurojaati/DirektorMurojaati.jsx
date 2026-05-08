@@ -18,30 +18,30 @@ const DirektorMurojaati = () => {
 
         <div className="direktorCard">
           <h4 className="direktorCardTitle">
-            DAVLAT MULK OB'EKTLARIDAN SAMARALI FOYDALANISH MARKAZI DIREKTORINING MUROJAATI
+            DAVLAT MULKI OBYEKTLARIDAN SAMARALI FOYDALANISH MARKAZI DIREKTORINING MUROJAATI
           </h4>
           <div className="direktorDivider" />
 
           <div className="direktorContent">
             <p>
-              Davlat mulk ob'ektlaridan samarali foydalanish markazi direktori
-              Usmonov Bekzod Shavkat o'g'lining korrupsiyaga qarshi kurashish
-              bo'yicha jamoatchilik va tizim xodimlariga murojaati.
+              Davlat mulki obyektlaridan samarali foydalanish markazi direktori
+              Usmonov Bekzod Shavkat oʻgʻlining korrupsiyaga qarshi kurashish
+              boʻyicha jamoatchilik va tizim xodimlariga murojaati.
             </p>
 
             <p><strong>Qadrli yurtdoshlar, hurmatli hamkasblar!</strong></p>
 
             <p>
-              Yurtimizda tadbirkorlikni rivojlantirish, ish o'rnini yaratish,
-              investitsiyalarni jalb qilish, innovatsiya va eksportni ko'paytirish
-              eng asosiy yo'nalishlar etib belgilangan.
+              Yurtimizda tadbirkorlikni rivojlantirish, ish oʻrnini yaratish,
+              investitsiyalarni jalb qilish, innovatsiya va eksportni koʻpaytirish
+              eng asosiy yoʻnalishlar etib belgilangan.
             </p>
 
             <p>
               Davlat mulki obyektlaridan samarali foydalanish markazimiz tomonidan
-              tadbirkorlik subyektlarini doimo qo'llab-quvvatlash, ularga ishlab
-              chiqarish va xizmatlar ko'rsatish maqsadida davlat mulki bo'lgan
-              ob'ektlarini ijaraga berishda bizga katta mas'uliyat yuklatilgan.
+              tadbirkorlik subyektlarini doimo qoʻllab-quvvatlash, ularga ishlab
+              chiqarish va xizmatlar koʻrsatish maqsadida davlat mulki boʻlgan
+              obyektlarini ijaraga berishda bizga katta mas’uliyat yuklatilgan.
             </p>
 
             <p>
@@ -51,35 +51,35 @@ const DirektorMurojaati = () => {
             </p>
 
             <p>
-              Davlat boshqaruvining ko'plab tarmoqlari qatorida Markaz tizimida
+              Davlat boshqaruvining koʻplab tarmoqlari qatorida Markaz tizimida
               korrupsiyaning oldini olish, faoliyatni raqamlashtirish, ochiqlikni
-              ta'minlash borasida bir qator ishlar amalga oshirildi.
+              ta’minlash borasida bir qator ishlar amalga oshirildi.
             </p>
 
             <p>
-              Xususan, o'tgan qisqa vaqt mobaynida davlat ko'chmas mulk obyektlarini
+              Xususan, oʻtgan qisqa vaqt mobaynida davlat koʻchmas mulk obyektlarini
               xususiy sektorga auksion orqali ijaraga berish, ijaradan tushumlarni
-              avtomat taqsimlash, ijara tushumlarini undirishni o'z ichiga olgan
+              avtomat taqsimlash, ijara tushumlarini undirishni oʻz ichiga olgan
               tizim joriy etildi.
             </p>
 
             <p>
-              Markaz tizimida korrupsiyaga qarshi kurashish bo'yicha mas'ul bo'lim
-              faoliyati yo'lga qo'yilib, korrupsiyaviy holatlar tizimli ravishda
-              o'rganilib, bunday holatlarni keltirib chiqaruvchi sabab va
-              shart-sharoitlarni bartaraf etish yuzasidan aniq choralar ko'rilmoqda.
+              Markaz tizimida korrupsiyaga qarshi kurashish boʻyicha mas’ul boʻlim
+              faoliyati yoʻlga qoʻyilib, korrupsiyaviy holatlar tizimli ravishda
+              oʻrganilib, bunday holatlarni keltirib chiqaruvchi sabab va
+              shart-sharoitlarni bartaraf etish yuzasidan aniq choralar koʻrilmoqda.
             </p>
 
             <p>
-              Shu bilan birga, xodimlar o'rtasida halollik va ochiqlik tamoyillarini
+              Shu bilan birga, xodimlar oʻrtasida halollik va ochiqlik tamoyillarini
               mustahkamlashga qaratilgan tushuntirish va profilaktik ishlar muntazam
               amalga oshirilmoqda.
             </p>
 
             <p>
-              Ta'kidlash joizki, Markaz tizimida <strong>"korrupsiyadan holi"</strong> muhitni
-              yaratish, byurokratiya va manfaatlar to'qnashuvi holatlariga batamom
-              chek qo'yish bo'yicha amaliy harakatlarni izchil davom ettiramiz.
+              Ta’kidlash joizki, Markaz tizimida <strong>"korrupsiyadan holi"</strong> muhitni
+              yaratish, byurokratiya va manfaatlar toʻqnashuvi holatlariga batamom
+              chek qoʻyish boʻyicha amaliy harakatlarni izchil davom ettiramiz.
             </p>
 
             <p><strong>Aziz yurtdoshlar, sohaning fidoyi zahmatkashlari!</strong></p>
@@ -91,38 +91,38 @@ const DirektorMurojaati = () => {
 
             <p>
               Har bir qadam ortida xalq manfaati turishi kerak, har bir harakatimiz
-              mas'uliyat, har bir jarayon ochiq va adolatli bo'lishi shart.
+              mas’uliyat, har bir jarayon ochiq va adolatli boʻlishi shart.
             </p>
 
             <p><strong>Men sizlarni:</strong></p>
             <ul>
-              <li>manfaatlar to'qnashuviga yo'l qo'ymaslikka;</li>
-              <li>har qanday noqonuniy ta'sirni rad etishga;</li>
+              <li>manfaatlar toʻqnashuviga yoʻl qoʻymaslikka;</li>
+              <li>har qanday noqonuniy ta’sirni rad etishga;</li>
               <li>elektron auksion va raqamli nazorat orqali shaffoflikni mustahkamlashga;</li>
               <li>jamoada halollik madaniyatini kuchaytirishga chaqiraman.</li>
             </ul>
 
             <p>
-              Shunday ekan, Markaz tizimidagi har bir xodim o'z faoliyatida
-              korrupsiya holatlarining oldini olishga va unga chek qo'yishga mas'ul
-              ekanligini yana bir bor ta'kidlab o'tmoqchiman.
+              Shunday ekan, Markaz tizimidagi har bir xodim oʻz faoliyatida
+              korrupsiya holatlarining oldini olishga va unga chek qoʻyishga mas’ul
+              ekanligini yana bir bor ta’kidlab oʻtmoqchiman.
             </p>
 
             <p>
-              O'z navbatida, barchaga tizim xodimlarining har qanday korrupsiyaviy
-              yoki boshqa turdagi noqonuniy xatti-harakatlariga guvoh bo'lganingizda,
+              Oʻz navbatida, barchaga tizim xodimlarining har qanday korrupsiyaviy
+              yoki boshqa turdagi noqonuniy xatti-harakatlariga guvoh boʻlganingizda,
               shuningdek xodimlarning bunday harakatlarga aloqasi borligi haqida
-              ishonchli ma'lumotlarga ega bo'lganingizda,
-              Davlat mulk obyektlaridan samarali foydalanish markazining
+              ishonchli ma’lumotlarga ega boʻlganingizda,
+              Davlat mulki obyektlaridan samarali foydalanish markazining
               <a href={`tel:${phoneHref}`} className="direktorInlineLink direktorNoWrap"> {phone}</a> telefoni, <a href={`https://t.me/${telegramUsername}`} className="direktorInlineLink direktorNoWrap">{telegramBot}</a> rasmiy telegram boti yoki
-              <a href={`mailto:${email}`} className="direktorInlineLink direktorNoWrap"> {email}</a> elektron pochta manzili orqali o'z
-              murojaatlaringizni yo'llashingizni so'rayman.
+              <a href={`mailto:${email}`} className="direktorInlineLink direktorNoWrap"> {email}</a> elektron pochta manzili orqali oʻz
+              murojaatlaringizni yoʻllashingizni soʻrayman.
             </p>
 
             <p>
               Markaz tizimida mehnat qilayotgan barcha xodimlarni korrupsiya
-              holatlarining har qanday ko'rinishlariga nisbatan murosasiz
-              munosabatda bo'lishga, o'z xizmat vazifalarini halol va xolis
+              holatlarining har qanday koʻrinishlariga nisbatan murosasiz
+              munosabatda boʻlishga, oʻz xizmat vazifalarini halol va xolis
               bajarishga chaqirib qolaman.
             </p>
 
