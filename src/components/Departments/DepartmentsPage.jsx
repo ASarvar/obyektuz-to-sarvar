@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./DepartmentsPage.css";
 import { useTranslation } from "react-i18next";
-import director from "../../assets/hr/director.png";
-import deputyDirector from "../../assets/hr/dep-dir.jpg";
 import Button from 'react-bootstrap/Button';
 import deps from "./departments.json";
-import Departments from "../../Pages/Departments";
 
 const DepartmentsPage = () => {
   const { t } = useTranslation()
